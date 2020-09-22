@@ -465,16 +465,22 @@ input[type="checkbox"] {
 
 @media all and (max-width: 500px) {
   .home {
-    height: 35rem;
+    display: -ms-grid;
+    display: grid;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    height: 40rem;
     margin-top: -11rem;
   }
   .portbg {
-    height: 50%;
+    height: 300%;
     margin-top: 2rem;
+    margin-left: 6rem;
   }
   .myname {
-    margin-left: 6%;
-    margin-top: 2%;
+    margin-left: 5rem;
+    margin-top: -3rem;
   }
 }
 
@@ -525,12 +531,10 @@ input[type="checkbox"] {
   .fname svg {
     width: 120%;
     height: 120%;
-    margin-left: 15%;
   }
   .lname svg {
     height: 120%;
     width: 130%;
-    margin-left: 20%;
   }
 }
 
@@ -548,12 +552,14 @@ h3 span {
 
 @media all and (max-width: 500px) {
   .banner-area {
-    margin-top: 5rem;
+    margin-top: 13rem;
+    height: 3rem;
   }
   h3 {
     color: var(--clr-navtxt);
     font-size: 1.5rem;
     margin-left: 5rem;
+    margin-top: 0rem;
     font-family: 'Times New Roman', Times, serif;
     width: 14rem;
   }
@@ -564,12 +570,24 @@ h3 span {
   }
 }
 
-footer {
+.mobile-footer {
+  height: 0rem;
+}
+
+@media all and (max-width: 500px) {
+  .mobile-footer {
+    height: 2rem;
+    background: var(--svg-clr);
+    margin-bottom: 0rem;
+  }
+}
+
+.footer {
   padding: 1rem 2rem;
   margin-top: 0rem;
 }
 
-footer div {
+.footer div {
   display: -ms-grid;
   display: grid;
   -webkit-box-pack: center;
@@ -577,24 +595,24 @@ footer div {
           justify-content: center;
 }
 
-footer h1 {
+.footer h1 {
   color: var(--clr-navtxt);
   margin-top: 10rem;
   font-size: 2rem;
 }
 
-footer span {
+.footer span {
   color: var(--h1-clr);
   font-weight: 600;
 }
 
-footer P {
+.footer P {
   font-size: 0.8rem;
   color: gray;
   margin-top: 2rem;
 }
 
-footer hr {
+.footer hr {
   width: 100%;
 }
 
@@ -611,32 +629,32 @@ footer hr {
     border-radius: 100%;
     opacity: 0.6;
   }
-  footer {
+  .footer {
     padding: 1rem 2rem;
     margin-top: -20rem;
   }
-  footer div {
+  .footer div {
     display: -ms-grid;
     display: grid;
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
   }
-  footer h1 {
+  .footer h1 {
     color: var(--clr-navtxt);
     margin-top: -1rem;
     font-size: 1rem;
   }
-  footer span {
+  .footer span {
     color: var(--h1-clr);
     font-weight: 600;
   }
-  footer P {
+  .footer P {
     font-size: 0.7rem;
     color: gray;
     margin-top: 1rem;
   }
-  footer hr {
+  .footer hr {
     width: 100%;
   }
 }
