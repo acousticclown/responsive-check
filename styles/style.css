@@ -437,7 +437,7 @@ input[type="checkbox"] {
 .wrapper {
   position: absolute;
   width: 100%;
-  height: 100%;
+  height: 100vh;
   background: transparent;
 }
 
@@ -599,6 +599,18 @@ footer hr {
 }
 
 @media all and (max-width: 500px) {
+  .wrapper {
+    overflow: hidden;
+    position: absolute;
+    width: 100%;
+    height: 100vh;
+    background: transparent;
+  }
+  .wrapper .ball {
+    position: absolute;
+    border-radius: 100%;
+    opacity: 0.6;
+  }
   footer {
     padding: 1rem 2rem;
     margin-top: -20rem;
