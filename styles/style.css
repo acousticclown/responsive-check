@@ -1452,6 +1452,7 @@ p .author {
     height: 45rem;
   }
   .project-details {
+    visibility: hidden;
     margin-top: 1rem;
     margin-left: 8.5rem;
     height: 8rem;
