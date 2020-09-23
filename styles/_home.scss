@@ -1,7 +1,7 @@
 .home {
   padding: .5rem;
   height: 15rem;
-  margin-top: -23rem;
+  margin-top: -20rem;
 }
 
 .portbg {
@@ -19,7 +19,7 @@
       display: grid;
       justify-content: center;
       height: 40rem;
-      margin-top: -11rem;
+      margin-top: 5rem;
     }
 
     .portbg {
@@ -31,7 +31,7 @@
 
     .myname{
         margin-left: 5rem;
-        margin-top: -3rem;
+        margin-top: -5rem;
     }  
   }
 
@@ -53,7 +53,7 @@
 
 .social {
   font-size: 1.5rem;
-  margin-left: 50%;
+  margin-left: 40%;
   width: fit-content;
 
   a {
@@ -70,8 +70,8 @@
 @media all and (max-width: 500px) {
   .social {
     margin-left: 30%;
-    font-size: 1.1rem;
-    margin-top: -2%;
+    font-size: 1.05rem;
+    margin-top: -2rem;
 
     a{
         margin: 1rem .2rem;
@@ -90,6 +90,7 @@
   .lname svg{
     height: 120%;
     width: 130%;
+    margin-top: -1rem;
     // margin-left: 20%;
   }
 }
@@ -115,7 +116,7 @@ h3{
   h3{
     color: var(--clr-navtxt);
     font-size: 1.5rem;
-    margin-left: 5rem;
+    margin-left: 6rem;
     margin-top: 0rem;
     font-family: 'Times New Roman', Times, serif;
     width: 14rem;

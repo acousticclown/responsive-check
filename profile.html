@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <title>Shivansh Pratap</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="https://kit.fontawesome.com/406f004429.js" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <link rel="stylesheet" href="styles/debug.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="shortcut icon" href="favicon.png" type="image/x-icon">
+    <link rel="stylesheet" media="screen" href="https://fontlibrary.org/face/butler" type="text/css"/>
+    <link rel="stylesheet" href="styles/style.css">
+  </head>
+<body>
+
+   <!-- Moving Bubbles Started -->
+
+   <div class="wrapper">
+
+    <!-- Navbar Started -->
+
+    <nav id="navbar">
+      <div class="logo"><a href="#"><img class="sp" src="media/SPlogo.svg" alt=""></a></div>
+        <input type="checkbox" id="click">
+              <label for="click" class="menu-btn">
+                <i class="fas fa-bars"></i>
+              </label>
+        <ul>
+          <li><a class="fas fa-home con-tooltip bottom" href="index.html">
+          <div class="tooltip ">
+            <p>HOME</p>
+          </div></a></li>
+          <li><a class="active fas fa-user con-tooltip bottom" href="profile.html">
+          <div class="tooltip ">
+            <p>PROFILE</p>
+          </div></a></li>
+          <li><a class="fas fa-file-alt con-tooltip bottom" href="projects.html">
+          <div class="tooltip ">
+            <p>PROJECTS</p>
+          </div></a></li>
+          <!-- <li><a class="fas fa-photo-video con-tooltip bottom" href="gallery.html">
+          <div class="tooltip ">
+            <p>GALLERY</p>
+          </div></a></li></a></li> -->
+          <li><a class="fas fa-envelope con-tooltip bottom" href="contact.html">
+            <div class="tooltip ">
+              <p>CONTACT</p>
+            </div></a></li>
+          </a></li>
+            <!-- THEME BUTTON STARTED -->
+                <li><a id="dark-mode-toggle" class="fas fa-palette con-tooltip bottom dark-mode-toggle moon">
+                  <div class="tooltip ">
+                    <p>Theme</p>
+                  </div></a></li>
+                </a></li>
+          <!-- THEME BUTTON ENDED -->
+        </ul>
+    </nav>
+
+    <!-- Navbar Ended -->
+
+    <!-- Upper SVG Started -->
+    <svg class="upper-svg" style="z-index: 3; margin-top: 0rem;" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 500" preserveAspectRatio="xMidYMid meet">
+      <style>
+      @media all and (max-width: 1100px) {
+        svg{
+          height: 50%;
+          width: 100%;
+        }
+      }
+      @media all and (max-width: 720px) {
+        svg{
+          height: 40%;
+          width: 100%;
+        }
+      }
+      @media all and (max-width: 500px) {
+        .upper-svg{
+          height: 35%;
+          width: 100%;
+          margin-top: 0rem;
+        }
+      }
+    </style>
+      <path id="path" fill="var(--svg-clr)" fill-opacity="1" d="M0,288L48,250.7C96,213,192,139,288,117.3C384,96,480,128,576,170.7C672,213,768,267,864,245.3C960,224,1056,128,1152,96C1248,64,1344,96,1392,112L1440,128L1440,0L1392,0C1344,0,1248,0,1152,0C1056,0,960,0,864,0C768,0,672,0,576,0C480,0,384,0,288,0C192,0,96,0,48,0L0,0Z"></path>
+    </svg>
+    <!-- Upper SVG Ended -->
+
+<!-- Details Div Started -->
+
+  <div class="details-div">
+      <div class="mypic-container">
+        <img class="mypic" src="media/ShivanshPratap.jpg" alt="DP"></img>
+      </div>
+      <div class="main-container" data-aos="fade-left">
+        <div class="main-details">
+          <h1><span class="focus2">UI/UX Designer</span> And <span class="focus2">Web Developer</span></h1> 
+          <p><span class="focus">Hi &#128075;</span>, My name is <span class="focus">Shivansh Pratap. &#128526;</span></p>
+          <p>I'm a <span class="focus">Computer Science Student &#128187;</span> from Indore, Madhya Paradesh, <span class="focus">India.</span> </p>
+          <p>I <span class="focus">Love to Design &#128151;</span> things my own way.</p>
+          <p>Email: <span class="focus">shivanshsuryavanshi@gmail.com &#128231;</span></p>
+        </div>
+        <a href="contact.html" class="hire-me">
+          <p>Hire Me</p>
+          <i class="fas fa-briefcase"></i>
+        </a>
+        <a href="twitterdp.jpg" class="hire-me" id="cv">
+          <p>Download Resume</p>
+          <i class="fas fa-download"></i>
+        </a>
+      </div>
+  </div>
+
+<!-- Details Div Ended -->
+
+<!-- Quotes Slider Started -->
+
+  <div class="slider">
+    <div class="slides">
+      <!--radio buttons start-->
+      <input class="radio" type="radio" name="radio-btn" id="radio1">
+      <input class="radio" type="radio" name="radio-btn" id="radio2">
+      <input class="radio" type="radio" name="radio-btn" id="radio3">
+      <input class="radio" type="radio" name="radio-btn" id="radio4">
+      <!--radio buttons end-->
+      <!--slide images start-->
+      <div class="slide first">
+        <p><b>"Love the life you live. Live the life you love"</b></p>
+        <p class="author" style="color: gray;">-Bob Marley</p>
+      </div>
+      <div class="slide">
+        <p><b>"Deleted code is debugged code"</b></p>
+        <p class="author" style="color: gray;">-Jeff Sickel</p>
+      </div>
+      <div class="slide">
+        <p><b>"Never trust a computer you can’t throw out a window"</b></p>
+        <p class="author" style="color: gray;">-Steve Wozniak</p>
+      </div>
+      <div class="slide">
+        <p><b>"I find that the harder I work, the more luck I seem to have"</b></p>
+        <p class="author" style="color: gray;">-Thomas Jefferson</p>
+      </div>
+      <!--automatic navigation start-->
+      <div class="navigation-auto">
+        <div class="auto-btn1"></div>
+        <div class="auto-btn2"></div>
+        <div class="auto-btn3"></div>
+        <div class="auto-btn4"></div>
+      </div>
+      <!--automatic navigation end-->
+    </div>
+      <!--manual navigation start-->
+    <div class="navigation-manual">
+      <label for="radio1" class="manual-btn"></label>
+      <label for="radio2" class="manual-btn"></label>
+      <label for="radio3" class="manual-btn"></label>
+      <label for="radio4" class="manual-btn"></label>
+    </div>
+      <!--manual navigation end-->
+  </div>
+  
+<!-- Quotes Slider Ended -->
+
+<!-- Mini_bar Section Started -->
+
+<div class="mini-bar" data-aos="zoom-in" data-aos-duration="800">
+  <div class="bar-items">
+    <div class="fas fa-code"></div>
+    <p>55000</p>
+    <p>Lines Of Code</p>
+  </div>
+  <div class="bar-items">
+    <div class="fas fa-file-alt"></div>
+    <p>15</p>
+    <p>Projects Done</p>
+  </div>
+  <div class="bar-items">
+    <div class="fas fa-certificate"></div>
+    <p>22</p>
+    <p>Certificates</p>
+  </div>
+  <div class="bar-items">
+    <div class="fas fa-smile-beam"></div>
+    <p>38</p>
+    <p>Happy Clients</p>
+  </div>
+</div>
+
+<!-- Mini_bar Section Ended -->
+
+<!-- What I Do Section Started -->
+
+  <div class="what-i-do">
+    <p style="color: gray;">WHAT I DO</p>
+    <h1 style="font-family: ButlerBold;">From Coding to Develop And Design <br> I do Many Things</h1>
+    <div class="wid-items">
+      <div class="wid-item1" data-aos="fade-right">
+        <div class="wid-box" data-aos="fade-left">
+          <p style="color: whitesmoke;">01.</p>
+          <h1 style="font-family: ButlerBold;">Designer</h1>
+          <div class="explore-btn"><a style="text-decoration: none;" href="projects.html"><p>VIEW PROJECTS</p></a></div>
+        </div>
+        <img src="media/designer.jpg" alt="">
+      </div>
+      <div class="wid-item2" data-aos="fade-left">
+        <div class="wid-box" data-aos="fade-right">
+          <p style="color: whitesmoke;">02.</p>
+          <h1 style="font-family: ButlerBold;">Developer</h1>
+          <div class="explore-btn"><a style="text-decoration: none;" href="projects.html"><p>VIEW PROJECTS</p></a></div>
+        </div>
+        <img src="media/developer.jpg" alt="">
+      </div>
+      <div class="wid-item3" data-aos="fade-right">
+        <div class="wid-box" data-aos="fade-left">
+          <p style="color: whitesmoke;">03.</p>
+          <h1 style="font-family: ButlerBold;">Coder</h1>
+          <div class="explore-btn"><a style="text-decoration: none;" href="projects.html"><p>VIEW PROJECTS</p></a></div>
+        </div>
+        <img src="media/coding.jpg" alt="">
+      </div>
+    </div>
+  </div>
+
+  <div class="mobile-footer">
+              
+  </div>
+
+<!-- What I Do Section Ended -->
+
+<!-- Footer Started -->
+
+<!-- <div class="footer">
+  <div>
+  <h1>Want To Work Together? <span> <u> <a style="color: var(--foreground);" href="contact.html"> Contact Me </a> </u></span></h1>
+  </div>
+  <hr>
+  <div>
+    <p>&#169; SHIVANSH PRATAP - 2020 - ALL RIGHTS RESERVED</p>
+  </div>
+</div> -->
+
+<!-- Foooter Ended -->
+
+<!-- Lower SVG Started -->
+
+<!-- <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="var(--svg-clr)" fill-opacity="1" d="M0,288L48,250.7C96,213,192,139,288,117.3C384,96,480,128,576,170.7C672,213,768,267,864,245.3C960,224,1056,128,1152,96C1248,64,1344,96,1392,112L1440,128L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"></path></svg> -->
+
+<!-- Lower SVG Ended -->
+
+<!-- Main Body Ended -->
+
+  </div>
+
+<!-- Wrapper Class Ended -->
+
+<!-- Scripts Started -->
+
+  <script src="scripts/aos.js"></script>
+  <script src="scripts/back.js"></script>
+  <script src="scripts/dark.js"></script>
+  <script src="scripts/quotes.js"></script>
+  <script src="scripts/aos.js"></script>
+
+<!-- Scripts Ended -->
+
+  </body>
+  </html>
