@@ -170,7 +170,7 @@
   }
   .projects-main {
     height: 80;
-    margin: 1rem 2rem;
+    margin: 0rem 2rem;
     margin-left: 2rem;
     //background: pink;
 
@@ -218,6 +218,25 @@
       position: absolute;
       margin-top: 1.5rem;
       margin-left: 2.8rem;
+    }
+  }
+
+  .explore-btn2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 70px;
+    height: 15px;
+    background: transparent;
+    border: 1px solid white;
+    cursor: default;
+    margin-top: 1rem;
+    z-index: 7;
+    margin-left: 6rem;
+  
+    p {
+      font-size: .5rem;
+      color: white;
     }
   }
 }
