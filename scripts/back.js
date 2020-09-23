@@ -1,7 +1,7 @@
 var options = {
     numberOfBalls : 20,
-    ballBaseRadius : 10,
-    ballVariantRadius : 5,
+    ballBaseRadius : 2,
+    ballVariantRadius : 10,
     ballBaseSpeed : .1,
     ballVariantSpeed : 1.2,
     particleColors: ['#EF476F', '#FFD166', '#06D6A0', '#FFFCF9']
