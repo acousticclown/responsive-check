@@ -1,6 +1,6 @@
 var options = {
     numberOfBalls : 20,
-    ballBaseRadius : 2,
+    ballBaseRadius : 5,
     ballVariantRadius : 10,
     ballBaseSpeed : .1,
     ballVariantSpeed : 1.2,
@@ -9,7 +9,7 @@ var options = {
   
   var w = window.innerWidth;
   var h = window.innerHeight;
-  var wrapper = document.querySelector('.wrapper');
+  var wrapper = document.querySelector('.wrapper-profile');
   
   function Ball() {
     

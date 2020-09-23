@@ -90,13 +90,52 @@ body::-webkit-scrollbar-thumb {
 
 @import "./projects";
 
-// @import "./contact";
+@import "./contact";
 
 // @import "./gallery";
 
 // @import "./svg";
 
-.wrapper {
+.wrapper-home {
+  position: absolute;
+  width: 100%;
+  height: 45rem;
+  background: transparent;
+  // overflow: hidden;
+  .ball {
+    position: absolute;
+    border-radius: 100%;
+    opacity: 0.6;
+  }
+}
+
+.wrapper-profile {
+  position: absolute;
+  width: 100%;
+  height: 45rem;
+  background: transparent;
+  // overflow: hidden;
+  .ball {
+    position: absolute;
+    border-radius: 100%;
+    opacity: 0.6;
+  }
+}
+
+.wrapper-projects {
+  position: absolute;
+  width: 100%;
+  height: 45rem;
+  background: transparent;
+  // overflow: hidden;
+  .ball {
+    position: absolute;
+    border-radius: 100%;
+    opacity: 0.6;
+  }
+}
+
+.wrapper-contact {
   position: absolute;
   width: 100%;
   height: 45rem;
@@ -112,12 +151,51 @@ body::-webkit-scrollbar-thumb {
 @import "./home";
 
 @media all and (max-width: 500px){
-  .wrapper {
+  .wrapper-home {
+    overflow: hidden;
+    position: absolute;
+    width: 100%;
+    height: 42rem;
+    background: transparent;
+    .ball {
+      position: absolute;
+      border-radius: 100%;
+      opacity: 0.6;
+    }
+  }
+
+  .wrapper-profile {
     overflow: hidden;
     position: absolute;
     width: 100%;
     height: 160rem;
     background: transparent;
+    .ball {
+      position: absolute;
+      border-radius: 100%;
+      opacity: 0.6;
+    }
+  }
+
+  .wrapper-projects {
+    position: absolute;
+    width: 100%;
+    height: 96rem;
+    background: transparent;
+    overflow: hidden;
+    .ball {
+      position: absolute;
+      border-radius: 100%;
+      opacity: 0.6;
+    }
+  }
+  
+  .wrapper-contact {
+    position: absolute;
+    width: 100%;
+    height: 68rem;
+    background: transparent;
+    overflow: hidden;
     .ball {
       position: absolute;
       border-radius: 100%;
