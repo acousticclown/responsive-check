@@ -929,7 +929,7 @@ p .author {
 
 @media all and (max-width: 500px) {
   .details-div {
-    margin-top: 15rem;
+    margin-top: 17rem;
   }
   .mypic-container {
     height: 10rem;
@@ -974,7 +974,7 @@ p .author {
     font-size: 0.9rem;
   }
   .hire-me {
-    width: 8rem;
+    width: 5rem;
     height: 2rem;
     margin-top: 0.8rem;
     margin-left: 0.3rem;
@@ -1028,7 +1028,7 @@ p .author {
   #cv {
     width: 10rem;
     margin-top: -2rem;
-    margin-left: 10rem;
+    margin-left: 6rem;
   }
   #cv p {
     margin-top: 0.3rem;
@@ -1230,6 +1230,284 @@ p .author {
   }
 }
 
+.project-points {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: -30rem;
+  height: 60rem;
+  overflow: hidden;
+  width: 100rem;
+}
+
+.project-points img {
+  -webkit-filter: var(--img-brightness);
+          filter: var(--img-brightness);
+  z-index: -1;
+}
+
+.project-details {
+  display: -ms-grid;
+  display: grid;
+  place-content: center;
+  position: absolute;
+  height: 25rem;
+  width: 25rem;
+  margin-left: 40rem;
+  margin-top: -38rem;
+  border-radius: 50%;
+  opacity: 1;
+  z-index: 3;
+}
+
+.project-details a {
+  color: var(--foreground);
+  cursor: pointer;
+  text-decoration: none;
+  font-size: 5rem;
+}
+
+.project-details a:hover {
+  text-decoration: underline;
+}
+
+.project-details a.green:hover {
+  color: #1ace84;
+}
+
+.project-details a.purple:hover {
+  color: #a262c0;
+}
+
+.project-details a.teal:hover {
+  color: #4ac0aa;
+}
+
+.project-details a.violet:hover {
+  color: #8c78ba;
+}
+
+.project-details a.pink:hover {
+  color: #d529cd;
+}
+
+.project-details a.b:hover {
+  color: #159262;
+}
+
+.project-details a.c:hover {
+  color: #2982d5;
+}
+
+.project-details a.d:hover {
+  color: #c4d529;
+}
+
+.project-details a.e:hover {
+  color: #29d546;
+}
+
+.project-details a.f:hover {
+  color: #851a7f;
+}
+
+.project-details a.g:hover {
+  color: #e597e2;
+}
+
+.project-details a.h:hover {
+  color: #1f9e98;
+}
+
+.project-details a.i:hover {
+  color: #8d261f;
+}
+
+.project-details a.j:hover {
+  color: #067488;
+}
+
+.project-details a.k:hover {
+  color: #29d58d;
+}
+
+.projects-main {
+  height: 150rem;
+  margin: 4rem 8rem;
+  margin-bottom: 0;
+}
+
+.projects-main h1 {
+  font-size: 4rem;
+}
+
+.projects {
+  display: -ms-grid;
+  display: grid;
+}
+
+.project {
+  display: -ms-grid;
+  display: grid;
+  padding: 50px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.project .project-description {
+  background: #350142;
+  position: absolute;
+  margin-top: 78px;
+  margin-left: 11.8rem;
+}
+
+.project-description {
+  opacity: 0;
+  display: -ms-grid;
+  display: grid;
+  padding: 50px;
+  width: 950px;
+  height: 550px;
+}
+
+.project-description p {
+  font-size: 1.8rem;
+}
+
+.project-description h1 {
+  margin-top: -2.5rem;
+  text-align: center;
+  font-size: 3rem;
+}
+
+.project:hover .project-description {
+  opacity: 0.8;
+  -webkit-transition: 0.5s ease-in-out;
+  transition: 0.5s ease-in-out;
+}
+
+.hover-to-descript {
+  height: 600px;
+  width: 1000px;
+}
+
+.explore-btn2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 200px;
+  height: 60px;
+  background: transparent;
+  border: 2px solid white;
+  cursor: default;
+  margin-top: 5rem;
+}
+
+.explore-btn2 p {
+  font-size: 1rem;
+  color: white;
+}
+
+.explore-btn2:hover {
+  -webkit-animation: shadow 0.5s ease 0s 1 normal forwards;
+          animation: shadow 0.5s ease 0s 1 normal forwards;
+}
+
+@keyframes shadow {
+  0% {
+    -webkit-box-shadow: 0;
+            box-shadow: 0;
+  }
+  100% {
+    -webkit-box-shadow: -6px -6px 10px rgba(255, 255, 255, 0.5), 6px 6px 10px rgba(255, 255, 255, 0.5);
+            box-shadow: -6px -6px 10px rgba(255, 255, 255, 0.5), 6px 6px 10px rgba(255, 255, 255, 0.5);
+  }
+}
+
+.fixed {
+  position: fixed;
+  top: 10%;
+  opacity: 1;
+}
+
+@media all and (max-width: 500px) {
+  .project-points {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin-top: 0rem;
+    height: 50rem;
+    overflow: hidden;
+    width: 25rem;
+  }
+  .project-points img {
+    width: 22rem;
+    height: 45rem;
+  }
+  .project-details {
+    margin-top: 1rem;
+    margin-left: 8.5rem;
+    height: 8rem;
+    width: 8rem;
+  }
+  .project-details a {
+    font-size: 1.4rem;
+  }
+  .projects-main {
+    height: 80;
+    margin: 1rem 2rem;
+    margin-left: 2rem;
+  }
+  .projects-main p {
+    font-size: .7rem;
+  }
+  .projects-main h1 {
+    font-size: 1.5rem;
+  }
+  .project-description {
+    opacity: .9;
+    display: -ms-grid;
+    display: grid;
+    padding: 1rem;
+    width: 13rem;
+    height: 8rem;
+  }
+  .project-description p {
+    font-size: .5rem;
+  }
+  .project-description h1 {
+    margin-top: -.5rem;
+    margin-left: -1rem;
+    text-align: center;
+    font-size: 1rem;
+  }
+  .hover-to-descript {
+    height: 150px;
+    width: 250px;
+  }
+  .project {
+    display: -ms-grid;
+    display: grid;
+    padding: 12px;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .project .project-description {
+    background: #350142;
+    position: absolute;
+    margin-top: 1.5rem;
+    margin-left: 2.8rem;
+  }
+}
+
 .wrapper {
   position: absolute;
   width: 100%;
@@ -1384,7 +1662,7 @@ h3 span {
     overflow: hidden;
     position: absolute;
     width: 100%;
-    height: 156rem;
+    height: 160rem;
     background: transparent;
   }
   .wrapper .ball {
